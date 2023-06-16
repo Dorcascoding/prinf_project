@@ -11,5 +11,6 @@
  exit(1);
  }
   printf( "String was allocated!\n" );
+  printf("String indeed alocated\n");
 return 0;
  }
