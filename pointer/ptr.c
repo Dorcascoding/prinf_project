@@ -12,5 +12,6 @@
  }
   printf( "String was allocated!\n" );
   printf("String indeed alocated\n");
+  printf("String Added\n");
 return 0;
  }
