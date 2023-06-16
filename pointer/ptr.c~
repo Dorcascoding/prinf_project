@@ -1,0 +1,16 @@
+1 #include <stdlib.h>
+  2 #include <stdio.h>
+  3 int main( void )
+  4 {
+  5    /* allocate memory for a 100-character string */
+  6    char *str;
+  7    str = (char *) malloc(100);
+  8    if (str == NULL)
+  9    {
+ 10       printf( "Not enough memory to allocate buffer\n");
+ 11       exit(1);
+ 12    }
+ 13    printf( "String was allocated!\n" );
+return 0;
+ }
+~                                                                                                                                                                       ~            
